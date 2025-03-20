@@ -1,4 +1,5 @@
 ## Trezo
+
 <img width="1614" alt="Screenshot 2025-03-20 at 18 54 43" src="https://github.com/user-attachments/assets/b1dbfc68-d25e-405b-8e95-bddcfe850f43" />
 Secure, Decentralized, and Transparent Lending & Borrowing Platform
 
@@ -55,6 +56,11 @@ Secure, Decentralized, and Transparent Lending & Borrowing Platform
 8. **Create a Pull Request**
 
    Go to your forked repository on GitHub, and you should see a "Compare & pull request" button. Click on it to create a pull request (PR) from your branch to the main Trezo-Core-HH- repository.
+
+## Links
+
+Deployed Link: https://trezocorehh.vercel.app/
+Demo Video: https://youtu.be/x5wtCYep7RA
 
 ## The Team
 
