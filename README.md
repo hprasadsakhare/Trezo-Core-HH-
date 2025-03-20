@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Trezo
+<img width="1614" alt="Screenshot 2025-03-20 at 18 54 43" src="https://github.com/user-attachments/assets/b1dbfc68-d25e-405b-8e95-bddcfe850f43" />
+Secure, Decentralized, and Transparent Lending & Borrowing Platform
 
-## Getting Started
+## Contract Address: 0x1B590fd181c96792dAffD9F0225DF0B956481Bb5
 
-First, run the development server:
+1. **Fork the Repository**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. **Clone the Repository**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   Once you have forked the repository, clone it to your local development environment using the following command:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   ```sh
+   $ https://github.com/<your_github_username>/Trezo-Core-HH-.git
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   Replace **your-username** with your GitHub username.
 
-## Learn More
+3. **Create a Branch**
 
-To learn more about Next.js, take a look at the following resources:
+   Move into the project's directory and create a new branch for your contributions:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```sh
+   cd Trezo-Core-HH-
+   git checkout -b my-feature-branch
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   Replace **my-feature-branch** with a descriptive branch name related to your changes.
 
-## Deploy on Vercel
+4. **Make Your Changes**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   Now it's time to work on your contributions! Feel free to add new features, improve the user interface, enhance backend or frontend functionality, or fix any issues you find.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+5. **Check the changed files**
+
+   ```sh
+   git status
+   ```
+
+6. **Commit Your Changes**
+
+   ```sh
+   git add .
+   git commit -m "<EXPLAIN-YOUR_CHANGES>"
+   ```
+
+7. **Push to Your Forked Repository**
+
+   ```sh
+   git push origin my-feature-branch
+   ```
+
+   Replace **my-feature-branch** with the name of your branch.
+
+8. **Create a Pull Request**
+
+   Go to your forked repository on GitHub, and you should see a "Compare & pull request" button. Click on it to create a pull request (PR) from your branch to the main Trezo-Core-HH- repository.
+
+## The Team
+
+- Hariprasad Sakhare (@hprasadsakhare) - Full stack Web3 developer
+- Vidip (@ghoshvidip26) - Full stack Developer
