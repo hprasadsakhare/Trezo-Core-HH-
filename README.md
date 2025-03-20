@@ -1,9 +1,40 @@
 ## Trezo
 
 <img width="1614" alt="Screenshot 2025-03-20 at 18 54 43" src="https://github.com/user-attachments/assets/b1dbfc68-d25e-405b-8e95-bddcfe850f43" />
-Secure, Decentralized, and Transparent Lending & Borrowing Platform
+
+## Overview
+Trezo is a decentralized lending platform that enables users to deposit BTC as collateral and borrow USDT against it. The platform ensures secure lending with a well-defined collateralization and liquidation mechanism.
 
 ## Contract Address: 0x1B590fd181c96792dAffD9F0225DF0B956481Bb5
+
+### **Key Features**
+- Uses **OpenZeppelin** contracts for security (ReentrancyGuard, Pausable, Ownable).
+- Implements **BTC lending** with **collateralization** and **liquidation mechanisms**.
+- Uses **CustomBTC** and **CustomUSDT** tokens.
+- Has a **collateralization ratio of 150%** and a **liquidation threshold of 130%**.
+- Implements **price-based liquidation**.
+
+## **Smart Contract Functions**
+
+### **1. Collateral & Borrowing Functions**
+- **`openPosition(uint256 btcAmount)`**: Deposits BTC as collateral and borrows USDT.
+- **`addCollateral(uint256 btcAmount)`**: Adds more BTC as collateral to an existing position.
+- **`removeCollateral(uint256 btcAmount)`**: Withdraws a portion of the BTC collateral.
+- **`borrow(uint256 usdtAmount)`**: Borrows USDT against the BTC collateral.
+- **`repay(uint256 usdtAmount)`**: Repays the borrowed USDT.
+
+### **2. Liquidation Functions**
+- **`liquidate(address user)`**: If the collateral falls below the **liquidation threshold**, this function liquidates the user's collateral.
+
+### **3. Admin Functions**
+- **`pause()`** / **`unpause()`**: Allows the owner to **pause/unpause** lending operations.
+- **`setBtcPrice(uint256 price)`**: Updates the **BTC price** for liquidation calculations.
+
+### **4. Utility Functions**
+- **`getPosition(address user)`**: Fetches **position details** (collateral, borrowed amount, last update).
+- **`getCurrentBtcPrice()`**: Returns the **latest BTC price**.
+
+## **Getting Started**
 
 1. **Fork the Repository**
 
@@ -57,12 +88,10 @@ Secure, Decentralized, and Transparent Lending & Borrowing Platform
 
    Go to your forked repository on GitHub, and you should see a "Compare & pull request" button. Click on it to create a pull request (PR) from your branch to the main Trezo-Core-HH- repository.
 
-## Links
+## **Links**
+- **Deployed Link**: [Trezo App](https://trezocorehh.vercel.app/)
+- **Demo Video**: [YouTube](https://youtu.be/x5wtCYep7RA)
 
-Deployed Link: https://trezocorehh.vercel.app/
-Demo Video: https://youtu.be/x5wtCYep7RA
-
-## The Team
-
-- Hariprasad Sakhare (@hprasadsakhare) - Full stack Web3 developer
-- Vidip (@ghoshvidip26) - Full stack Developer
+## **The Team**
+- **Hariprasad Sakhare** [(@hprasadsakhare)](https://github.com/hprasadsakhare) - Full Stack Web3 Developer
+- **Vidip** [(@ghoshvidip26)](https://github.com/ghoshvidip26) - Full Stack Developer
