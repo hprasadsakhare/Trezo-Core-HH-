@@ -14,6 +14,7 @@ Trezo is a decentralized lending platform that enables users to deposit BTC as c
 - Has a **collateralization ratio of 150%** and a **liquidation threshold of 130%**.
 - Implements **price-based liquidation**.
 
+
 ![Image](https://github.com/user-attachments/assets/605c7cd6-3937-480c-905b-359465fcb897)
 ![Image](https://github.com/user-attachments/assets/c3a73736-1d77-4543-9560-8b2705112b76)
 ![Image](https://github.com/user-attachments/assets/5a9f2337-b586-4547-b9c8-9113af446e42)
