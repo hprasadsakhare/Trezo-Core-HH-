@@ -104,3 +104,6 @@ Trezo is a decentralized lending platform that enables users to deposit BTC as c
 ## **The Team**
 - **Hariprasad Sakhare** [(@hprasadsakhare)](https://github.com/hprasadsakhare) - Full Stack Web3 Developer
 - **Vidip** [(@ghoshvidip26)](https://github.com/ghoshvidip26) - Full Stack Developer
+
+
+[Trezo PPT CORE HH.pdf](https://github.com/user-attachments/files/19847765/Trezo.PPT.CORE.HH.pdf)
